@@ -32,7 +32,7 @@ public struct Token {
 	public internal(set) var characterStyles : [CharacterStyling] = []
 	public internal(set) var count : Int = 0
 	public internal(set) var shouldSkip : Bool = false
-	public internal(set) var tokenIndex : Int = -1
+	public var tokenIndex : Int = -1
 	public internal(set) var isProcessed : Bool = false
 	public internal(set) var isMetadata : Bool = false
 	public var children : [Token] = []
