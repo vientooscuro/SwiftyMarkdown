@@ -54,7 +54,7 @@ public struct FrontMatterRule {
 }
 
 public struct LineRule {
-    let token : String
+    public var token : String
     let removeFrom : Remove
     let type : LineStyling
     let shouldTrim : Bool
