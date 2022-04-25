@@ -272,7 +272,9 @@ class SwiftyScanner {
 					if !styles.contains(where: { $0.isEqualTo(style)}) {
 						styles.append(style)
 					}
-				}
+                } else {
+                    remainingTags -= remainingTags
+                }
 			}
 			
 			for idx in (openRange.upperBound)...(closeRange.lowerBound) {
