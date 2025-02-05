@@ -36,7 +36,7 @@ public enum CharacterStyle : CharacterStyling {
 	}
 }
 
-enum MarkdownLineStyle : LineStyling {
+public enum MarkdownLineStyle : LineStyling {
     var shouldTokeniseLine: Bool {
         switch self {
         case .codeblock:
